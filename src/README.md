@@ -3,7 +3,7 @@
 Compilation: g++ binary_readout.c `root-config --cflags --glibs` -o binary_readout
 Usage: ./binary_readout <filename>
 
-# Estrimation of channel time resolution
+# Estimation of channel time resolution
 
 Compilation:  g++ Analyzer.cc `root-config --cflags --glibs` -o Analyzer -I .
 Usage: ./Analyzer <filename>
